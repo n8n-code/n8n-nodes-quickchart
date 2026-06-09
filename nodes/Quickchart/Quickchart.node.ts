@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class Quickchart implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'quickchart',
+		displayName: 'Quickchart',
 		name: 'N8nDevQuickchart',
 		icon: { light: 'file:./quickchart.png', dark: 'file:./quickchart.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'API to generate charts and QR codes using QuickChart services',
-		defaults: { name: 'quickchart' },
+		defaults: { name: 'Quickchart' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

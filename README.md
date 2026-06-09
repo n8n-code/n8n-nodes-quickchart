@@ -53,9 +53,15 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Get generate a chart get, Post generate a chart post, Get generate a qr code get, Post generate a qr code post |
+<details>
+<summary><b>Default</b> (4 operations)</summary>
+
+- Get Generate a chart GET
+- Post Generate a chart POST
+- Get Generate a QR code GET
+- Post Generate a QR code POST
+
+</details>
 
 ---
 

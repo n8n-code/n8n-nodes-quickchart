@@ -8,7 +8,7 @@ import type {
 export class QuickchartApi implements ICredentialType {
 	name = 'N8nDevQuickchartApi';
 
-	displayName = 'quickchart API';
+	displayName = 'Quickchart API';
 
 	icon: Icon = { light: 'file:../nodes/Quickchart/quickchart.png', dark: 'file:../nodes/Quickchart/quickchart.dark.png' };
 
@@ -22,7 +22,7 @@ export class QuickchartApi implements ICredentialType {
 			default: 'https://quickchart.io',
 			required: true,
 			placeholder: 'https://quickchart.io',
-			description: 'The base URL of your quickchart API server',
+			description: 'The base URL of your Quickchart API server',
 		},
 		{
 			displayName: 'API Key',

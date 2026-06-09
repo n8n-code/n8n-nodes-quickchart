@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-quickchart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API to generate charts and QR codes using QuickChart services",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-quickchart",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "quickchart"
